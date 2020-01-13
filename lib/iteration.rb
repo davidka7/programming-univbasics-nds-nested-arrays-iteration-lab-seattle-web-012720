@@ -42,14 +42,14 @@ end
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  total=[]
+  total=0
   row_index=0 
   while row_index<src.count do 
     element_index=0 
     row_index += 1 
     while element_index<src[row_index].count do
     element_index +=1
-    total.push(+=src[row_index][element_index])
+    total+=src[row_index][element_index]
   end
   
 end
