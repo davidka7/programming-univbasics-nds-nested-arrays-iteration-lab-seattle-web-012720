@@ -48,8 +48,9 @@ def total_even_pairs(src)
     if src[i][0]==0 & src[i][1]
       total+=src[i][0]&src[i][1]
   end
+  i+=1
 end
-i+=1
+return total
   # if both numbers in the pair are even, then add both those numbers to the
   # total
   
@@ -59,4 +60,3 @@ i+=1
   #Review the operator documentation if you've forgotten
   # this!
 end
-total
