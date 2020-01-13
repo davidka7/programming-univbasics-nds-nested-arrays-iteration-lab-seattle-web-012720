@@ -47,8 +47,9 @@ def total_even_pairs(src)
   while i<src.count do 
     if src[i][0]==0 & src[i][1]
       total+=src[i][0]&src[i][1]
-  
+  end
 end
+i+=1
   # if both numbers in the pair are even, then add both those numbers to the
   # total
   
