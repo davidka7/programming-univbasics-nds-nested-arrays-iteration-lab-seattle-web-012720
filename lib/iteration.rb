@@ -53,7 +53,7 @@ def total_even_pairs(src)
   end
   
 end
-return total
+ total
   # if both numbers in the pair are even, then add both those numbers to the
   # total
   
