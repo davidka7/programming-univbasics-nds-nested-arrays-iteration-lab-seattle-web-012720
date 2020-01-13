@@ -29,7 +29,7 @@ def find_greater_pair(src)
   else array.push(src[i][1])
   # Produce a new Array that contains the larger number of each of the pairs
 end
-i=+ 1 
+i += 1 
 return array
   # that are in the inner Arrays
 end
