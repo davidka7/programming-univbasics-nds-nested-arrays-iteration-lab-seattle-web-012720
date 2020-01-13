@@ -30,6 +30,7 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
 end
 i += 1 
+end
 return array
   # that are in the inner Arrays
 end
